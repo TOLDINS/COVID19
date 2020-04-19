@@ -6,7 +6,7 @@ app.use('/',public);
 
 mongoose
 	.connect(
-		'mongodb+srv://covid19-hwa8e.mongodb.net/test',
+		'mongodb+srv://user:1234@covid19-hwa8e.mongodb.net/test',
 		{
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
